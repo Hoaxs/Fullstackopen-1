@@ -1,1 +1,1 @@
-# Fullstackopen-part1
+# Fullstackopen-1
