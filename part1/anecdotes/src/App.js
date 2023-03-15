@@ -20,7 +20,7 @@ function App() {
   const [scoreArray, setScoreArray] = useState(new Array(anecdotes.length).fill(0))
 
   const setToSelected = (value) => () => setSelected(value)
-  //def random number generator and reset highestscore
+  //generate random number
   const random = () => Math.floor((Math.random() * anecdotes.length))
 
   // copy scoreArray
