@@ -1,4 +1,4 @@
-/*This is a copy of App file under src folder*/
+/*This is a copy of App file under src folder for this exercise. */
 import { useState } from 'react'
 //   components
 const Button = (props) => <button onClick={props.onClick}>{props.text}</button>
