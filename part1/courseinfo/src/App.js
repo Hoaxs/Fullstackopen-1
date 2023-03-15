@@ -1,3 +1,5 @@
+/*Exercise1.5*/
+
 import Header from './Exercise1.5/Header'
 import Content from './Exercise1.5/Content'
 import Total from './Exercise1.5/Total'
