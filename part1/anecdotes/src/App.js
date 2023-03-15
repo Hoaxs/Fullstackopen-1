@@ -3,7 +3,6 @@
 import { useState } from 'react'
 //   components
 const Button = (props) => <button onClick={props.onClick}>{props.text}</button>
-// return anecdote with highest vote
 
 function App() {
 
@@ -30,7 +29,8 @@ function App() {
     const updateScoreArray = [...copyScoreArray]
     setScoreArray(updateScoreArray)
   }
-
+  
+// return anecdote with highest vote
   const AnectdoteWithMostVotes = () => {
     const max = Math.max(...scoreArray)
     const indexOfMax = scoreArray.indexOf(max)
